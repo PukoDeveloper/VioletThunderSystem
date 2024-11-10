@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/window.css">
+
+    <link rel="icon" href="img/icon.svg">
+    <title data-text="title"></title>
+
+    <script src="https://git.pukodev.com/TextManager.js"></script>
+    <script src="js/semver.bundle.js"></script>
+</head>
+<body>
+
+    <div id="desktop" >
+        
+    </div>
+
+    <main>
+    </main>
+    
+    <div id="taskbar">
+        <div id="taskbar-icon">
+        </div>
+        <div id="taskbar-tools">
+            <div id="taskbar-tools-time">
+                <p class="time"></p>
+                <p class="date"></p>
+            </div>
+        </div>
+    </div>
+
+    <div id="boot-screen">
+        <div id="boot-title"><img src="img/icon_shadow.svg"></img><span>Violet Thunder System</span></div>
+        <div id="boot-loading">
+            <div id="boot-loading-progress">
+                <div id="boot-loading-fill"></div>
+            </div>
+            <div id="boot-loading-text"></div>
+        </div>
+        <div id="boot-error">
+            <div id="boot-error-title"></div>
+            <div id="boot-error-text"></div>
+            <button id="boot-error-button"></button>
+        </div>
+        <div id="boot-spinner">
+            <div id="boot-spinner-div"></div>
+            <div id="boot-spinner-text"></div>
+        </div>
+        
+    </div>
+
+    <script src="js/core.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

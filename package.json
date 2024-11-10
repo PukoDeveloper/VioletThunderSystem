@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@types/nw.js": "^0.92.0"
+  }
+}
